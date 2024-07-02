@@ -43,3 +43,12 @@ $notasParaOFilme = [
 ];
 
 var_dump($notasParaOFilme);
+
+$filme = [
+    "nome" => "Fale comigo",
+    "ano"  => 2024,
+     "nota" => 9,5,
+    "genero" => "terror"
+];
+
+echo $filme["genero"];
